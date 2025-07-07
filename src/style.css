@@ -1,4 +1,76 @@
-h1 {
-  color: blueviolet;
+body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #232819;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../images/city-park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 250px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 2;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 2;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  padding: 15px 23px;
+  color: #0b0a05;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 150px 0;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  header h3 {
+    font-size: 17px;
+  }
 }
