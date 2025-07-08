@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ header {
 header h1 {
   font-weight: 700;
   font-size: 70px;
-  line-height: 2;
+  line-height: 2.5;
   margin: 0;
 }
 
@@ -57,6 +57,46 @@ header a {
   border-radius: 2px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  color: #d4dbc9;
+  padding: 100px 0;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: #d4dbc9;
+  opacity: 0.8;
+}
+
+footer p {
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+@media (max-width: 1100px) {
+  header h1 {
+    font-size: 55px;
+  }
+}
+
 @media (max-width: 900px) {
   header {
     padding: 150px 0;
@@ -72,5 +112,13 @@ header a {
 
   header h3 {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 560px) {
+  header h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
   }
 }
