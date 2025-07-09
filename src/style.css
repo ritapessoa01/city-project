@@ -59,18 +59,52 @@ header a {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
+}
+
+.grid-2c {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.grid-3c-footer {
+  grid-template-columns: 2fr 3fr 3fr;
 }
 
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1f2413d2;
+  margin-top: 13px;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  opacity: 0.8;
 }
 
 footer {
   color: #d4dbc9;
-  padding: 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/bordalo-tile.jpg);
+  background-position: cover;
 }
 
 footer ul {
@@ -112,6 +146,15 @@ footer p {
 
   header h3 {
     font-size: 17px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  section {
+    padding: 50px;
   }
 }
 
