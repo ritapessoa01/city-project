@@ -62,10 +62,11 @@ section {
   padding: 100px;
 }
 
-section.secondary {
+section.primary {
   background-color: #f8f8f8;
 }
 
+section.primary h2,
 section.secondary h2 {
   margin-bottom: 30px;
 }
@@ -86,7 +87,7 @@ main h3 {
 }
 
 main h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
   color: #1f2413d2;
   margin: 5px 0px;
@@ -228,6 +229,10 @@ footer p {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .grid-3c {
+    grid-gap: 30px;
   }
 }
 
